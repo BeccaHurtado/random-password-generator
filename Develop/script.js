@@ -1,5 +1,5 @@
 // Assignment code here
-
+var charset = 123456789
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
