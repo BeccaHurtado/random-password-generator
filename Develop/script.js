@@ -1,5 +1,16 @@
 // Assignment code here
 var charset = 123456789
+var generateBtn = document.querySelector('#generate')
+var lowerCase = 'abcdefghijklmnopqrstuvwxyz'
+var upperCase= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+var numbers = '0123456789'
+var characters = '!@#$%^&*()-_=+{}[]'
+var userPass = ""
+var userLength= ""
+var userUpper = ""
+var userChar = ""
+var userNum = ""
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
