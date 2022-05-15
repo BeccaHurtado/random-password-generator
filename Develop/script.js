@@ -11,9 +11,28 @@ var userUpper = ""
 var userChar = ""
 var userNum = ""
 
+var userPasswordChoices = function () {
 
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+var userLowerCaseConfirm = confirm("Would you like lowercase letters?")
+  if(userLowerCaseConfirm === true) {
+    userPass += lowerCase 
+  }
+
+var userUpperCaseConfirm = confirm("Would you like lowercase letters?")
+  if(userUpperCaseConfirm === true) {
+    userPass += upperCase 
+  }
+
+var userSpecialCharactersConfirm = confirm("Would you like lowercase letters?")
+  if(userSpecialCharactersConfirm === true) {
+    userPass += characters 
+  }
+
+var userNumbersConfirm = confirm("Would you like lowercase letters?")
+  if(userNumbersConfirm === true) {
+    userPass += numbers 
+  }
+}
 
 // Write password to the #password input
 function writePassword() {
